@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Fluid Todlr</title>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+		<link rel="stylesheet" href="assets/css/master.css">
+	        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+	<body>
+
+		<header>
+			<div class="jumbotron">
+				<h1>Fluid Todlr</h1>
+			</div>
+		</header>
+		<div class="container">
+			<div class="row">
+			   <div class="col-md-4">
+					<div>
+						<label for="todo-text">Tasks:</label>
+						<input id="todo-text" type="text" onkeyup="App.controller.textInputKeyup(event);"/>
+					</div>
+                                        <br/>
+                                        <br/>
+					<div>
+						<input id="add-td-btn" class="btn btn-primary" type="button" name="button" onclick="App.controller.addTodo();" value="+ Add Task" />
+					</div>
+			   </div>
+			 </div>
+                                 <br/>
+                                 <br/>
+                                 <br/>
+                                 <br/>
+                                 <br/>
+                                 
+		
+<div class="col-md-8">
+					<div class="card">
+						<div class="card-block">
+							<h4 class="card-title">Tasks</h4>
+							<div id="todo-list" class="card-text">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+                 <br/>
+          <div class="jumbotron">
+                <p>Made by Suresh Mishra with ♥ to all to work hard...</p>
+	  </div>
+                <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-app.js"></script>
+		<!-- <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-auth.js"></script> -->
+		<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-database.js"></script>
+		<!-- <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-storage.js"></script> -->
+		<!-- <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-messaging.js"></script> -->
+		<script type="text/javascript" src="assets/js/todo-fb.js" charset="utf-8"></script>
+		<script type="text/javascript" src="assets/js/todo-app.js" charset="utf-8"></script>
+		<script type="text/javascript" src="assets/js/todo-view.js" charset="utf-8"></script>
+	</body>
+</html>
